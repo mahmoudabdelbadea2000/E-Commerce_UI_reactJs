@@ -1,9 +1,15 @@
-import React from 'react'
-import styles from "./homePage.module.css"
+import React from 'react';
+import { HomeCategory } from '../../components/home';
+import HomeBanners from "../../components/home/homeBanners/HomeBanners";
+import styles from "./homePage.module.css";
+
 
 const HomePage = () => {
   return (
-    <div className={styles.home__page}>HomePage</div>
+    <div className={styles.home__page}>
+        <HomeBanners />
+        <HomeCategory />
+    </div>
   )
 }
 

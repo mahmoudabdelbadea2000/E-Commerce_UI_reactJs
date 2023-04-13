@@ -1,0 +1,15 @@
+.blog__head h3 {
+  font-size: 16px;
+}
+.blog__description {
+  font-size: 14px;
+  margin-bottom: 10px !important;
+}
+.blog__button {
+  background-color: var(--main-color) !important;
+}
+@media screen and (max-width: 768px) {
+  .slideBrand {
+    margin-right: 30px;
+  }
+}

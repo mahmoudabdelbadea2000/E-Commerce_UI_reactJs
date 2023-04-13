@@ -1,0 +1,24 @@
+.product__title {
+  color: brown;
+  font-size: 12px;
+  font-weight: normal !important;
+}
+.product__actionBar {
+  top: 40px;
+  right: -20px;
+  transition: all 0.5s;
+}
+.product__actionBar i {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.product__actionBar i:hover {
+  padding: 5px;
+  background-color: brown;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px !important;
+}
+.product__hover:hover .product__actionBar {
+  right: 10px;
+}

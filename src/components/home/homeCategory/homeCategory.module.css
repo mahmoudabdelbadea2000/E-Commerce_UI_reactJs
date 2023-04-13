@@ -1,0 +1,16 @@
+.HomeCategories {
+  background-color: #f4f5f3;
+}
+@media screen and (max-width: 768px) {
+  .cat__content {
+    border: 0 !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .HomeCategories__Row {
+    justify-content: center !important;
+  }
+  .HomeCategories__Col:not(:first-child) {
+    margin-top: 1rem !important;
+  }
+}

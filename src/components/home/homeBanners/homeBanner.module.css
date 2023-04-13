@@ -1,0 +1,80 @@
+.mySwiper img {
+  border-radius: 10px;
+}
+.homeBanner__text div {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.homeBanner__text div p:first-of-type {
+  color: #d99383;
+  font-size: 20px;
+  font-weight: bolder !important;
+}
+.homeBanner__text div h4 {
+  font-size: 25px !important;
+  font-weight: bolder;
+}
+.homeBanner__text div p:last-of-type {
+  font-size: 20px;
+  margin-bottom: 10px !important;
+}
+.homeBanner__text div button {
+  color: #fff;
+  outline: none;
+  border: 0;
+  background: var(--third-color);
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.homeBanner__content {
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+.homeBanner__content div {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+}
+.homeBanner__content div p:first-child {
+  color: #d99383;
+  font-size: 18px;
+  font-weight: bolder !important;
+}
+.homeBanner__content div p:nth-child(2) {
+  font-weight: bold;
+}
+.homeBanner__content div p:nth-child(3) {
+  font-size: 10px;
+}
+@media screen and (max-width: 992px) {
+  .homeBanner__text div {
+    top: 20px;
+    left: 20px;
+    font-size: 10px !important;
+  }
+  .homeBanner__text div p:first-of-type,
+  .homeBanner__text div p:last-of-type {
+    font-size: 12px !important;
+  }
+  .homeBanner__text div h4 {
+    margin-bottom: 4px !important;
+  }
+  .homeBanner__content div {
+    top: 10px;
+    left: 10px;
+    font-size: 10px;
+  }
+  .homeBanner__content div p:first-child {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .homeBanner__cat {
+    margin-top: 20px !important;
+  }
+}

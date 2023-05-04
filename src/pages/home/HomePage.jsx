@@ -1,15 +1,19 @@
 import React from 'react';
-import { HomeCategory } from '../../components/home';
+import BlogSection from "../../components/blog/BlogSection.jsx";
+import { HomeCategory, HomeOfferies } from '../../components/home';
 import HomeBanners from "../../components/home/homeBanners/HomeBanners";
-import styles from "./homePage.module.css";
+import ProductSection from '../../components/products/ProductSection.jsx';
 
 
 const HomePage = () => {
   return (
-    <div className={styles.home__page}>
-        <HomeBanners />
-        <HomeCategory />
-    </div>
+    <>
+      <HomeBanners />
+      <HomeCategory />
+      <HomeOfferies />
+      <ProductSection />
+      <BlogSection />
+    </>
   )
 }
 

@@ -1,7 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import BlogCard from '../../blog/blogCard/BlogCard'
-import ProductCard from "../../products/productCard/ProductCard.jsx"
 import HomeBrands from '../homeBrands/HomeBrands'
 import Categories from './Categories'
 import styles from "./homeCategory.module.css"
@@ -62,24 +60,6 @@ const HomeCategory = () => {
         </Row>
         <Categories />
         <HomeBrands />
-        <Row className='justify-content-between align-items-center'>
-          <h2 className='mt-4'>Featured Collection</h2>
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-        </Row>
-        <Row className='justify-content-between align-items-center'>
-          <h2 className='mt-4'>Our Latest Blogs</h2>
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-        </Row>
       </Container>
     </section>
   )

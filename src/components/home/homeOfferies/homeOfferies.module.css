@@ -1,7 +1,15 @@
-.product__title {
-  color: #a52a2a;
-  font-size: 12px;
-  font-weight: normal !important;
+.offer__discound {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  background-color: #fbbb72;
+  display: block;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 0px 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .product__actionBar {
   top: 40px;
@@ -26,4 +34,10 @@
 }
 .product__hover:hover .img__hover:first-of-type {
   display: flex !important;
+}
+.stars {
+  padding: 5px 0;
+}
+.product__button {
+  background-color: var(--main-color) !important;
 }

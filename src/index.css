@@ -20,6 +20,10 @@ p {
   margin: 0 !important;
   padding: 0 !important;
 }
+input:focus,
+textarea:focus {
+  outline: none;
+}
 ul {
   list-style: none;
   margin: 0;

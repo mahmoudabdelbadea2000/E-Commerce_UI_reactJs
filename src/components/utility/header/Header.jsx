@@ -57,7 +57,10 @@ const Header = () => {
               <ul
                 className={`d-flex justify-content-between align-items-center mb-0 ${styles.nav__links}`}
               >
-                <Link to="" style={{ textDecoration: "none", color: "#fff" }}>
+                <Link
+                  to="compare-products"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
                   <li className="d-flex justify-content-between align-items-center gap-2 me-3">
                     <i className="fa-solid fa-rotate fs-4"></i>{" "}
                     <span
@@ -68,7 +71,10 @@ const Header = () => {
                     </span>
                   </li>
                 </Link>
-                <Link to="" style={{ textDecoration: "none", color: "#fff" }}>
+                <Link
+                  to="wishlist"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
                   <li className="d-flex justify-content-between align-items-center gap-2 me-3">
                     <i className="fa-regular fa-heart fs-4"></i>{" "}
                     <span
@@ -79,7 +85,10 @@ const Header = () => {
                     </span>
                   </li>
                 </Link>
-                <Link to="" style={{ textDecoration: "none", color: "#fff" }}>
+                <Link
+                  to="login"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
                   <li className="d-flex justify-content-between align-items-center gap-2 me-3">
                     <i className="fa-regular fa-user fs-4"></i>{" "}
                     <span
@@ -142,7 +151,7 @@ const Header = () => {
                 <Link style={{ color: "#fff" }} to="our-blogs" className="ms-4">
                   Blogs
                 </Link>
-                <Link style={{ color: "#fff" }} to="" className="ms-4">
+                <Link style={{ color: "#fff" }} to="contact" className="ms-4">
                   Contact
                 </Link>
               </div>

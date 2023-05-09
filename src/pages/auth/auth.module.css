@@ -1,0 +1,14 @@
+.login {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 350px;
+}
+.login h4 {
+  color: #525252;
+}
+.login input {
+  background-color: #ededed;
+  border-radius: 2px;
+  padding: 5px 0 5px 5px;
+}

@@ -1,3 +1,10 @@
+export { default as ConfermPassword } from "./auth/ConfermPassword.jsx";
+export { default as LoginPage } from "./auth/LoginPage.jsx";
+export { default as ResetPassword } from "./auth/ResetPassword.jsx";
+export { default as SignupPage } from "./auth/SignupPage.jsx";
 export { default as BlogPage } from "./blog/BlogPage.jsx";
-export { default as homePage } from "./home/HomePage";
+export { default as ComparePage } from "./compare/ComparePage.jsx";
+export { default as ContactPage } from "./contact/ContactPage.jsx";
+export { default as HomePage } from "./home/HomePage";
 export { default as OurStorePage } from "./ourStore/OurStorePage";
+export { default as WishListPage } from "./wishlist/WishListPage.jsx";

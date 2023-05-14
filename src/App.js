@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Footer, Header } from "./components/utility";
 import {
+  BlogNewsPage,
   BlogPage,
   ComparePage,
   ConfermPassword,
@@ -9,8 +10,13 @@ import {
   HomePage,
   LoginPage,
   OurStorePage,
+  PrivacyPolicyPage,
+  ProductDetailsPage,
+  RefundPolicyPage,
   ResetPassword,
+  ShappingPolicyPage,
   SignupPage,
+  TermCondtionPage,
   WishListPage,
 } from "./pages";
 
@@ -29,6 +35,12 @@ function App() {
         <Route path="/sign-up" element={<SignupPage />} />
         <Route path="/forget-password" element={<ConfermPassword />} />
         <Route path="/conferm-Password" element={<ResetPassword />} />
+        <Route path="/blogs/news/:id" element={<BlogNewsPage />} />
+        <Route path="/product/:id" element={<ProductDetailsPage />} />
+        <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route path="refund-policy" element={<RefundPolicyPage />} />
+        <Route path="shapping-policy" element={<ShappingPolicyPage />} />
+        <Route path="tremcondtions" element={<TermCondtionPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

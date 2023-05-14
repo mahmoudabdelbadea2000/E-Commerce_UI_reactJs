@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import blog1 from "../../../images/blog-1.jpg";
 import styles from "./blogCard.module.css";
 
@@ -26,12 +27,14 @@ const BlogCard = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus
             id interdum velit laoreet.
           </Card.Text>
-          <Button
-            variant="primary"
-            className={`rounded-pill border-0 mt-2 ${styles.blog__button}`}
-          >
-            Read More
-          </Button>
+          <Link to="/blogs/news/:id">
+            <Button
+              variant="primary"
+              className={`rounded-pill border-0 mt-2 ${styles.blog__button}`}
+            >
+              Read More
+            </Button>
+          </Link>
         </Card.Body>
       </Card>
     </Col>

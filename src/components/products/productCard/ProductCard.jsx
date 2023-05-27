@@ -12,7 +12,7 @@ const ProductCard = () => {
   };
   return (
     <Col xs="6" sm="4" md="3">
-      <Link to="product/:id">
+      <Link to="/product/:id" style={{ color: "black" }}>
         <Card
           className={`border-0 mt-4 
             position-relative 

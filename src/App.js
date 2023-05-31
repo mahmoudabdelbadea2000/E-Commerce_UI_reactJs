@@ -4,6 +4,8 @@ import { Footer, Header } from "./components/utility";
 import {
   BlogNewsPage,
   BlogPage,
+  CartPage,
+  CheckOutPage,
   ComparePage,
   ConfermPassword,
   ContactPage,
@@ -37,10 +39,12 @@ function App() {
         <Route path="/conferm-Password" element={<ResetPassword />} />
         <Route path="/blogs/news/:id" element={<BlogNewsPage />} />
         <Route path="/product/:id" element={<ProductDetailsPage />} />
-        <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
-        <Route path="refund-policy" element={<RefundPolicyPage />} />
-        <Route path="shapping-policy" element={<ShappingPolicyPage />} />
-        <Route path="tremcondtions" element={<TermCondtionPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route path="/refund-policy" element={<RefundPolicyPage />} />
+        <Route path="/shapping-policy" element={<ShappingPolicyPage />} />
+        <Route path="/tremcondtions" element={<TermCondtionPage />} />
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/check-out" element={<CheckOutPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

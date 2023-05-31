@@ -99,7 +99,10 @@ const Header = () => {
                     </span>
                   </li>
                 </Link>
-                <Link to="" style={{ textDecoration: "none", color: "#fff" }}>
+                <Link
+                  to="/cart"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
                   <li style={{ color: "#febd69" }}>
                     <i className="fa-solid fa-cart-plus fs-4"></i>
                   </li>

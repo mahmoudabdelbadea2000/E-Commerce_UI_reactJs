@@ -4,6 +4,8 @@ export { default as ResetPassword } from "./auth/ResetPassword.jsx";
 export { default as SignupPage } from "./auth/SignupPage.jsx";
 export { default as BlogNewsPage } from "./blog/BlogNewsPage.jsx";
 export { default as BlogPage } from "./blog/BlogPage.jsx";
+export { default as CartPage } from "./cart/CartPage.jsx";
+export { default as CheckOutPage } from "./cart/CheckOutPage.jsx";
 export { default as ComparePage } from "./compare/ComparePage.jsx";
 export { default as ContactPage } from "./contact/ContactPage.jsx";
 export { default as HomePage } from "./home/HomePage";
